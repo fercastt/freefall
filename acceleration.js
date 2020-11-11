@@ -83,8 +83,6 @@ function freeFall() {
     neptune.y += neptune.accY*.08;
     pluto.y += pluto.accY*.08;
 
-    console.log(mercury.y);
-
     if (mercury.y + mercury.radius > canvas.height) {
         let finalMercury = canvas.height - mercury.radius;
         mercury.y = finalMercury;
